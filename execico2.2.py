@@ -74,6 +74,11 @@ for _ in range(2):
         t.rt(90)
         t.fd(300)
         t.rt(90)
-
+t.end_fill()
+t.pu()
+t.goto(-50,125)
+t.pd()
+for _ in range(2):
+        t.fd(500)
 mainloop()
 
